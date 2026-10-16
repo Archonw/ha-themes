@@ -1,0 +1,123 @@
+# Archonw Themes – a collection of Home Assistant themes.
+#
+# Every top-level key in this file is one theme. To add a theme, append a new
+# top-level block below. Values shared between themes can be defined once with
+# a YAML anchor (e.g. `&card-shape`) and merged into other themes with `<<: *card-shape`.
+
+# Dynaframe – warm dark brown and gold, modelled on the Dynaframe web UI
+# (colors from its dynaframe-base.css).
+Dynaframe:
+  modes:
+    dark:
+      # Base palette
+      primary-color: "#c99a5b"
+      accent-color: "#d8bc8c"
+      dark-primary-color: "#8a6238"
+      light-primary-color: "#d8bc8c"
+      text-primary-color: "#12100d"
+      text-accent-color: "#12100d"
+
+      # Backgrounds and surfaces
+      primary-background-color: "#12100d"
+      secondary-background-color: "#211d16"
+      card-background-color: "#1a1712"
+      ha-card-background: "#1a1712"
+      ha-dialog-surface-background: "#1a1712"
+      mdc-theme-surface: "#1a1712"
+      clear-background-color: "#12100d"
+      markdown-code-background-color: "#0d0b09"
+      code-editor-background-color: "#0d0b09"
+      table-row-background-color: "#1a1712"
+      table-row-alternative-background-color: "#17140f"
+      data-table-background-color: "#1a1712"
+
+      # Text
+      primary-text-color: "#f1e6d2"
+      secondary-text-color: "#d8c6ad"
+      disabled-text-color: "#766a5b"
+      paper-item-icon-color: "#d8c6ad"
+      state-icon-color: "#d8c6ad"
+      state-icon-active-color: "#c99a5b"
+      state-active-color: "#c99a5b"
+
+      # Lines, borders, cards
+      divider-color: "#3b3024"
+      outline-color: "#5a4630"
+      outline-hover-color: "#8b6b43"
+      ha-card-border-color: "#3b3024"
+      ha-card-border-width: "1px"
+      ha-card-border-radius: "16px"
+      ha-card-box-shadow: "0 18px 42px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(241, 230, 210, 0.05)"
+      ha-dialog-border-radius: "16px"
+
+      # Header and sidebar
+      app-header-background-color: "#17140f"
+      app-header-text-color: "#f1e6d2"
+      app-header-selection-bar-color: "#c99a5b"
+      app-header-edit-background-color: "#2b251c"
+      sidebar-background-color: "#17140f"
+      sidebar-text-color: "#f1e6d2"
+      sidebar-icon-color: "#d8c6ad"
+      sidebar-selected-text-color: "#d8bc8c"
+      sidebar-selected-icon-color: "#c99a5b"
+      sidebar-menu-button-text-color: "#f1e6d2"
+
+      # Status colors
+      error-color: "#9f3d2d"
+      warning-color: "#d8a13b"
+      success-color: "#748462"
+      info-color: "#8d7962"
+
+      # Inputs and controls
+      input-fill-color: "#17140f"
+      input-disabled-fill-color: "#0d0b09"
+      input-ink-color: "#f1e6d2"
+      input-label-ink-color: "#d8c6ad"
+      input-idle-line-color: "#5a4630"
+      input-hover-line-color: "#8b6b43"
+      input-outlined-idle-border-color: "#5a4630"
+      input-outlined-hover-border-color: "#8b6b43"
+      mdc-text-field-fill-color: "#17140f"
+      mdc-select-fill-color: "#17140f"
+      mdc-text-field-ink-color: "#f1e6d2"
+      mdc-text-field-label-ink-color: "#d8c6ad"
+      mdc-text-field-idle-line-color: "#5a4630"
+      mdc-theme-primary: "#c99a5b"
+      mdc-theme-on-primary: "#12100d"
+      switch-checked-color: "#c99a5b"
+      switch-checked-button-color: "#d8bc8c"
+      switch-checked-track-color: "#8a6238"
+      switch-unchecked-button-color: "#a99578"
+      switch-unchecked-track-color: "#3b3024"
+      slider-color: "#c99a5b"
+      slider-bar-color: "#3b3024"
+      paper-slider-knob-color: "#c99a5b"
+      paper-slider-active-color: "#c99a5b"
+      paper-slider-container-color: "#3b3024"
+      # Full primary scale (newer HA components derive fills/borders from it)
+      ha-color-primary-05: "#1c1610"
+      ha-color-primary-10: "#2b2116"
+      ha-color-primary-20: "#3d2e1d"
+      ha-color-primary-30: "#5c4428"
+      ha-color-primary-40: "#8a6238"
+      ha-color-primary-50: "#c99a5b"
+      ha-color-primary-60: "#d8bc8c"
+      ha-color-primary-70: "#e3cda4"
+      ha-color-primary-80: "#ecdcbe"
+      ha-color-primary-90: "#f4ead6"
+      ha-color-primary-95: "#faf4ea"
+      ha-color-on-primary-loud: "#12100d"
+      ha-color-text-primary: "#f1e6d2"
+
+      # Typography (Inter if installed on the device, otherwise system font)
+      primary-font-family: 'Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+      paper-font-common-base_-_font-family: "var(--primary-font-family)"
+      code-font-family: '"Cascadia Mono", Consolas, "SFMono-Regular", "Courier New", monospace'
+
+      # Light/dark helpers used by some cards
+      rgb-primary-color: "201, 154, 91"
+      rgb-accent-color: "216, 188, 140"
+      rgb-primary-text-color: "241, 230, 210"
+      rgb-secondary-text-color: "216, 198, 173"
+      rgb-card-background-color: "26, 23, 18"
+      rgb-primary-background-color: "18, 16, 13"

@@ -12,7 +12,7 @@ HACS install gives you all of them.
 
 | Theme | Mode | Description |
 | --- | --- | --- |
-| **Dynaframe** | dark | Warm dark brown with gold accents, modelled on the [Dynaframe™](https://dynaframe.com) web UI. Pairs well with the [Dynaframe integration](https://github.com/Archonw/dynaframe-homeassistant). |
+| **Dynaframe** | dark | Warm dark brown with gold accents, modelled on the [Dynaframe™](https://geek-toolkit.com/) web UI. Pairs well with the [Dynaframe integration](https://github.com/Archonw/dynaframe-homeassistant). |
 
 ## Installation
 
